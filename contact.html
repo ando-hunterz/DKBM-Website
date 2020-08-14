@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - DKBM UMN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div><a href="/index.html"><img src="assets/Logo-KBM.png" alt="DKBM" width="80px" height="80px"></a></div>
+        <button class="menu-btn" onclick="showMenu()"><img src="assets/menu.svg" alt="" width="20px"></button>
+        <div class="nav-links">
+            <a href="/index.html">HOME</a>
+            <div id="tgl-drop" onmouseover="showDrop()" onmouseout="closeDrop()">
+                <a href="" onclick="event.preventDefault()">TENTANG KAMI</a>
+                <div class="menu-drop" >
+                    <a href="/profil.html">PROFIL & VISI MISI</a>
+                    <a href="/struktur.html">STRUKTUR </a>
+                </div>
+            </div>
+            
+            
+            <a href="/contact.html">KONTAK KAMI</a>
+        </div>
+        <div class="nav-mobile-links nav-links-closed">
+            <a href="/index.html">HOME</a>
+            <a href="">TENTANG KAMI</a>
+            <div class="nav-sub-links" >
+                <a href="/profil.html">PROFIL & VISI MISI</a>
+                <a href="/struktur.html">STRUKTUR </a>
+            </div>
+            <a href="/contact.html">KONTAK KAMI</a>
+        </div>
+       
+    </nav>
+    <div class="container">
+
+        <div class="main">
+            <div class="list-kontak">
+                <div class="kontak">
+                    <h2>Line</h2>
+                    <a href="http://line.me/ti/p/~@471dpxdr"><img src="assets/LINE_APP.png" alt=""></a>
+                    <a href="http://line.me/ti/p/~@471dpxdr">@471dpxdr</a>
+                </div>
+                <div class="kontak">
+                    <h2>Instagram</h2>
+                    <a href="https://www.instagram.com/dkbmumn/"><img src="assets/instagram.png" alt=""></a>
+                    <a href="https://www.instagram.com/dkbmumn/">@dkbmumn</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="main">
+            <div class="list-kontak">
+                <div class="kontak">
+                    <h2>Email</h2>
+                    <a href="mailto:dkbm@umn.ac.id"><img src="assets/mail.svg" alt=""></a>
+                    <a href="mailto:dkbm@umn.ac.id">dkbm@umn.ac.id</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="main">
+            <div class="list-kontak">
+                <div class="kontak">
+                    <h2>Lokasi</h2>
+                    <a href="https://goo.gl/maps/TBuQ17HhrkP2"><img src="assets/pin.svg" alt=""></a>
+                    <a href="https://goo.gl/maps/TBuQ17HhrkP2">Ruang Sekretariat DKBM<br>New Media Tower C306<br>Universitas Multimedia Nusantara</a>
+                    <iframe frameborder="0" scrolling="no"  marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=New%20Media%20Tower%20C301%20Universitas%20Multimedia%20Nustantara&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" aria-label="New Media Tower C301 Universitas Multimedia Nustantara"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="assets/mail.svg" alt="" width="50px">
+            <a href="mailto:dkbm@umn.ac.id">dkbm@umn.ac.id</a>
+        </div>
+        <div class="footer-content">
+            <div class="footer-items"><img src="assets/LINE_APP.png" alt="" width="30px"><a href="http://line.me/ti/p/~@471dpxdr">@471dpxdr</a></div>
+            <div class="footer-items"><img src="assets/instagram.png" alt="" width="30px"><a href="https://www.instagram.com/dkbmumn/">@dkbmumn</a></div>
+
+        </div>
+        <div class="footer-content">
+            <div class="footer-location"><img src="assets/pin.svg" alt="" width="30px"><a href="https://goo.gl/maps/TBuQ17HhrkP2">Ruang Sekretariat DKBM<br>New Media Tower C306<br>Universitas Multimedia Nusantara</a></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
